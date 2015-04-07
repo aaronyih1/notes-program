@@ -1,0 +1,45 @@
+body{
+	font-family: 'avenir';
+	font-weight: 200;
+    background-color: whitesmoke;
+    margin:0;
+}
+h1{
+    text-transform:uppercase;
+    background-color: black;
+    color: white;
+    padding-left: 4%;
+    padding-top:0.5em;
+    padding-bottom: 0.5em;
+}
+h2{
+    margin-left:7%;
+    text-transform: lowercase;
+
+}
+p{
+    margin-left: 7%;
+    margin-right: 7%;
+}
+
+div{
+    background-color: darkgrey;
+    margin-right: 30%;
+    margin-left: 30%;
+    border-radius: 0.3em;
+    margin-bottom: 1em;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top:0.5em;
+    padding-bottom: 0.5em;
+}
+
+ul{
+    margin-left:3%;
+    margin-right:3%;
+}
+
+li{
+    margin-left:7%;
+    margin-right: 7%;
+}

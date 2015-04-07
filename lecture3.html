@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>lecture 3 4/6/14 </title>
+</head>
+<body>
+	<h1>lecture 3 4/6/14</h1>
+	<h2>Functions:</h2>
+	<p>	f(x,y) = x^2 + y^2 <br>
+			f(x,y) = x*x + y*y  —> different syntax <br>
+		
+
+			distanceFromOrigin(x,y) = sqrt(f(x,y))—> define functions <br>
+			distanceFromOrigin(3.3, 6.7)—> call the function <br>
+	</p>
+	<div>
+		[2]F . . . [1][1]@ [2][2]@ # <br>
+	</div>
+
+	<div>int main(&nbsp;&nbsp;&nbsp;) <br>
+		{ <br>
+			cout<<“hello”<< endl; <br>
+		}
+	</div>
+	<p>every c++ program must have a main function
+		“cout<<“hello”<< endl;”—> cout “goes to the screen” >> “hello” written to the screen >> “endl” is end line --> this won't compile however becasue we need a library to have these commands
+
+		must add "#include <iostream>
+				  using namespace std;"
+
+		so :
+
+		<div>
+		#include <iostream>
+			using namespace std; <br>
+
+			int main() <br>
+			{ <br>
+				cout<<“hello”<< endl; <br>
+			} <br>
+		</div>
+		<ul>c++ syntax rules:
+			<li> c++ doesn't care about white space and line breaks</li>
+			<li>c++ is case sensitive</li>
+		</ul>
+	</p>
+	<h2>interactive program:</h2>
+		<div>
+			#include <iostream>
+			using namespace std;
+		</div>
+		<ul>
+			declaring variable syntax:
+			<li>no spaces in varibale names</li>
+			<li>naming conventions (camel case)</li>
+
+			<li> ex: type variableName;</li>
+		</ul>
+
+	<h2>Data Types:</h2>
+		<ul>
+		<i>int</i>--> from -2 billion to 2 billion <br>
+		<i>double</i>--> 10^-308 to 10^308, positive and negative, about 15 sig figs
+			<li>why ever use int?performance wise: traditionally doubles took longer to do arithmatic functions (may not be so true anymore)</li>
+		</ul>
+		<div>
+			main()
+			{
+				cout << "How many hours did you work? ";--> <br>printing the string <br>
+				double hoursWorked; --> <br> declaring the variable hoursWorked (still have to initialize it) <br>
+				cin >> hoursWorked; --> <br>initiallizing hoursWorked to the value of user input <br>
+				cout << "The value read in was " << hoursWorked << endl; --> prints the output to screen to test to make sure our logic any syntax was correct. This does not need to be included the final version <br>
+
+				cout << "What is your hourly rate of pay? "; <br>
+				double hourlyPay;<br>
+				cin >> hourlyPay;<br>
+				<br>
+				double totalPay;<br>
+				totalPay=hoursWorked*hourlyPay;<br>
+
+				cout.setf(ios::fixed);<br>
+				cout.precision(2);<br>
+				cout << "You earned $" << totalPay << endl;<br>
+				<br>
+				double amountWitheld;<br>
+				amountWithheld=totalPay*0.1;<br>
+				cout << "$" << amountWithheld << " will be withheld." << endl; <br>
+			}
+		</div>
+	<h2> arithematic expressions:</h2>
+	<p>
+		*
+		/
+		+
+		-
+		PEMDAS
+	</p>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
