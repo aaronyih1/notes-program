@@ -17,6 +17,11 @@ h2{
     text-transform: lowercase;
 
 }
+h3{
+    margin-left:11%;
+    text-transform: lowercase;
+    font-weight: 300;
+}
 p{
     margin-left: 11%;
     margin-right: 11%;
@@ -35,8 +40,8 @@ div{
 }
 
 ul{
-    margin-left:8%;
-    margin-right:8%;
+    margin-left:7%;
+    margin-right:7%;
 }
 
 li{
